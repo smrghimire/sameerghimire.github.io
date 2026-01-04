@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  color: #0f172a;
+  background: #ffffff;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  opacity: 0.85;
+}
+
+.hero-links {
+  margin-top: 1.5rem;
+}
+
+.hero-links a {
+  margin: 0 0.75rem;
+  font-weight: 500;
+  color: #e5e7eb;
+}
+
+section {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 1.25rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+
+.skills-list {
+  list-style: none;
+}
+
+.skills-list li {
+  padding: 0.4rem 0;
+}
+
+.experience-item {
+  margin-top: 1.5rem;
+}
+
+.experience-item h3 {
+  font-size: 1.15rem;
+}
+
+.experience-item span {
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #f8fafc;
+  color: #64748b;
+}
+
